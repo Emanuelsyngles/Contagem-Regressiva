@@ -1,12 +1,16 @@
-import { useState } from 'react'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <div className="App">
-      <h1>Countdown</h1>
+      <div className="container">
+        <h1>title</h1>
+        <div className="countdown-container">
+          <p>2 dias</p>
+        </div>
+      </div>
     </div>
   )
 }
