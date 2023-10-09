@@ -1,7 +1,6 @@
 import Title from './components/Title';
 import Counter from './components/Counter';
 
-import './components/img/capa.jpg';
 
 import './App.css'
 
