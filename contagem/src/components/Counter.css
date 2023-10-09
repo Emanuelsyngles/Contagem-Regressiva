@@ -1,0 +1,18 @@
+.counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.counter-number {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 0.7rem;
+    font-weight: bold;
+    min-height: 60px;
+    min-width: 80px;
+    font-size: 2rem;
+}
