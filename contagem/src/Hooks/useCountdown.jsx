@@ -1,8 +1,7 @@
-import { useState } from "react"
+import { useState } from "react";
 
 const useCountdown = (date) => {
-
-    const countDate = new Date(date).getTime()
+    const countDate = new Date(date).getTime();
     const now = new Date().getTime();
 
     const interval = countDate - now;
@@ -12,14 +11,27 @@ const useCountdown = (date) => {
     const hour = minute * 60;
     const day = hour * 24;
 
-    const dayNumber = math.floor(interval / day);
-    const hourNumber = math.floor((interval % day / hour))
-    const minuteNumber = math.floor(interval / day);
-    const secondNumber = math.floor(interval / day);
-
-    console.log(dayNumber);
-
+    const dayNumber = Math.floor(interval / day);
+    
+    console.log(dayNumber)
     return 1;
-}
+};
 
 export default useCountdown;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
