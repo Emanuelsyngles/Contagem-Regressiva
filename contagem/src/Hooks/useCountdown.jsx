@@ -1,11 +1,3 @@
-import React from 'react'
-
-const useCountdown = () => {
-  return (
-    <div>
-      
-    </div>
-  )
+const useCountdown = (date) => {
+    
 }
-
-export default useCountdown
