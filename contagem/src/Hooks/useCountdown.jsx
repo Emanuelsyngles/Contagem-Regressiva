@@ -3,8 +3,11 @@ import { useState } from "react"
 const useCountdown = (date) => {
 
     const countDate = new Date(date).getTime()
+    const now = new Date().getTime();
 
-    console.log(countDate);
+    const interval = countDate - now;
+
+    const second = 1000
 
     return 1;
 }
