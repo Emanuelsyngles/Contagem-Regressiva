@@ -12,8 +12,13 @@ const useCountdown = (date) => {
     const day = hour * 24;
 
     const dayNumber = Math.floor(interval / day);
+    const hourNumber = Math.floor((interval % day) / hour);
+    const minuteNumber = Math.floor((interval % day) / minute);
+    const secondNumber = math.floor((interval % minute) / second)
+
     
-    console.log(dayNumber)
+    console.log(dayNumber, hourNumber, minute)
+
     return 1;
 };
 
