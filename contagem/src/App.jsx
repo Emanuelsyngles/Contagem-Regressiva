@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <Title title="Contagem regressiva para 2024"/>
+        <Title title="2024 em:"/>
         <div className="countdown-container">
           <Counter title="Dias" number={day}/>
           <Counter title="Horas" number={hour}/>

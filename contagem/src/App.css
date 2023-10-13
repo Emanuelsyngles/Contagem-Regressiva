@@ -13,6 +13,10 @@
     border-radius: 20px;
 }
 
+.title {
+    text-align: center;
+}
+
 .countdown-container {
     display: flex;
     justify-content: center;
@@ -20,4 +24,37 @@
     height: 200px;
     gap: 2rem;
     text-align: center;
+}
+
+/*Responsivo*/
+
+@media (max-width: 500px) {
+    .container {
+        width: 300px;
+        min-height: 650px;
+        background-color:rgb(255, 255, 255, .8) ;
+        padding: 2rem;
+        border-radius: 20px;
+        transition: .5s;
+    }
+    .countdown-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 200px;
+        gap: 2rem;
+        margin-top: 50px;
+        padding-top: 15em;
+        transition: 1s;
+    }
+}
+
+@media (min-width: 500px) {
+    .container {
+        transition: 1s;
+    }
+    .countdown-container {
+        transition: 1s;
+    }
 }
