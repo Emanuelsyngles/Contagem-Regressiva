@@ -22,11 +22,16 @@ const useCountdown = (date) => {
         const hourNumber = Math.floor((interval % day) / hour);
         const minuteNumber = Math.floor((interval % hour) / minute);
         const secondNumber = Math.floor((interval % minute) / second);
+
+        setDay(dayNumber)
+        setHour(hourNumber)
+        setMinutes(minuteNumber)
+        secondNumber(secondNumber)
     }
     
     setInterval(countdown, 1000);
 
-    return 1;
+    return [day, hour, minute, second];
 };
 
 export default useCountdown;
