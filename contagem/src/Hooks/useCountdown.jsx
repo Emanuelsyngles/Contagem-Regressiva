@@ -26,7 +26,7 @@ const useCountdown = (date) => {
         setDay(dayNumber)
         setHour(hourNumber)
         setMinutes(minuteNumber)
-        secondNumber(secondNumber)
+        setSecond(secondNumber)
     }
     
     setInterval(countdown, 1000);
