@@ -8,5 +8,13 @@
 
 body {
   min-height: 100vh;
-  background-image: url(assets/capa.jpg);
+  max-width: 100%;
+  background: linear-gradient(45deg, 
+              #e63946 0%, /* Vermelho */
+              #272d31 25%, /* Branco */
+              #272d31 50%, /* Verde */
+              #457b9d 75% /* Azul */
+            );
 }
+
+
