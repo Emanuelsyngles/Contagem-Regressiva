@@ -1,9 +1,6 @@
- ## Informações
- Gosta de programação?, então esse é um projeto perfeito para responder algumas perguntinhas básicas sobre javascript!
 
  ## Como funciona?
- Esse é um quiz totalmente funcional, ele fala se sua pergunta está errada ou certa, isso ocorre com a mudança de cor
- na hora de selecionar uma pergunta, se sua resposta estiver certa, ele ficará verde caso contrário a opacidade ficará reduzida.
+ Ele vai me dizer quanto tempo falta para o fim do ano dias, horas, minutos e segundos e ele reinicia quando viramos o ano.
  
  ## Ferramentas 🔧
 - [ReactJS](https://react.dev/)
